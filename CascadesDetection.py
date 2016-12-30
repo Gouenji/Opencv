@@ -1,8 +1,8 @@
 import cv2
 import sys
 
-
-cascPath = "/home/mehul/Documents/grive/codes/opencv/haar-/haarcascades/haarcascade_frontalface_default.xml"
+#Download Haarcascades from folder
+cascPath = "haarcascades/haarcascade_frontalface_default.xml"
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
